@@ -616,7 +616,7 @@
                             <div class="line"></div>
                             <div class="progress-line" style="width: 46%;"></div>
                         </div>
-                        <div class="token-number" id="tokenup"><span id="tokennumber">4573</span> <span id="endTick">10000</span></div>
+                        <div class="token-number" id="tokenup"><span id="tokennumber">68</span> <span id="endTick">100</span></div>
                     </div>
                 </div>
             </div>
@@ -633,12 +633,12 @@
         const $numberText = document.querySelector("#total");
         const $remaining = document.querySelector('#remaining');
         const $priceResultText = document.querySelector("#price-total span");
-        let itemPriceSelected = 1.5;
+        let itemPriceSelected = ;
         let itemCount = 1;
 
         $plusButton.addEventListener("click", function(e) {
             e.preventDefault();
-            itemCount = itemCount < 5 ? itemCount + 1 : 5;
+            itemCount = itemCount < 1 ? itemCount + 1 : 5;
             $numberText.value = itemCount;
             $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
         });
