@@ -1,5 +1,5 @@
 
-// const wallet = "YOUR WALLET"
+// const wallet = "EbNRtAddJyWKQpiqGeqXX9NQsBL3Uwkav6AUB5h3xPgn"
 
 
 
