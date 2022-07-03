@@ -616,7 +616,7 @@
                             <div class="line"></div>
                             <div class="progress-line" style="width: 46%;"></div>
                         </div>
-                        <div class="token-number" id="tokenup"><span id="tokennumber">68</span> <span id="endTick">100</span></div>
+                        <div class="token-number" id="tokenup"><span id="tokennumber">46</span> <span id="endTick">100</span></div>
                     </div>
                 </div>
             </div>
@@ -638,7 +638,7 @@
 
         $plusButton.addEventListener("click", function(e) {
             e.preventDefault();
-            itemCount = itemCount < 1 ? itemCount + 1 : 5;
+            itemCount = itemCount < 1 ? itemCount : ;
             $numberText.value = itemCount;
             $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
         });
